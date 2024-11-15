@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+.styleContainer {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 400px;
+  left: 200px;
+}
+
+.box1 {
+  width: 100px;
+  height: 150px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+    0% {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:1000px; top:350px;}
+  75%  {right:1000px; top:350px;}
+  100% {left:1000px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.box2 {
+  width: 100%;
+  text-align: center;
+}
+
+.box4 {
+  width: 900px;
+  height: 600px;
+}
+
+.bilden2 {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.bilden3 {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.bilden4 {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 800px;
+  left: 20px;
+}
+
+.box5 {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 800px;
+  left: 20px;
+  color: aliceblue;
+}
+
+.backgroundBox {
+  position: absolute;
+  width: 400px;
+  height: 400px;  
+  top: 20px;
+  left: 40px;
+  background-color: red;
+}
+
+.TrumpBox {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 20px;
+  left: 40px;
+  color: black;
+}
+
+.Trump {
+  position: absolute;
+  left: 1000px;
+  top: 20px;
+}
+
+.TrumpBox2 {
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Trumplife {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Homepage {
+    top: 20px;
+    left: 20px;
+}
+
+.IH {
+  position: absolute;
+  top: 20px;
+  left: 1200px;
+}
+
+.Swish {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 400px;
+  top: 600px;
+}
+
+.Swishnumber {
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+
+.Hippocamp {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+.card {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
